@@ -1,0 +1,23 @@
+:root {
+  --red: #ed564b;
+}
+
+.navbar-nav a:hover {
+  color: var(--red);
+}
+
+.carousel-caption {
+  text-shadow: black 1em 0 1em;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+.carousel-item img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: var(--red);
+}
