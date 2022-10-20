@@ -6,6 +6,10 @@
   color: var(--red);
 }
 
+#carousel {
+  padding: 0px;
+}
+
 .carousel-caption {
   text-shadow: black 1em 0 1em;
   top: 55%;
@@ -17,7 +21,23 @@
   -webkit-filter: grayscale(100%);
 }
 
+.carousel-control-next,
+.carousel-control-prev {
+  width: 10% !important;
+  opacity: 1 !important;
+}
+
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
+  background-color: var(--red);
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  opacity: 0.5;
+}
+
+#featured {
+  color: white;
   background-color: var(--red);
 }
