@@ -41,3 +41,14 @@
   color: white;
   background-color: var(--red);
 }
+
+.latest-projects p {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+@media (min-width: 768px) {
+  .featured-container {
+    padding-top: 10em !important;
+  }
+}
