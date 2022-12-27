@@ -77,7 +77,8 @@ a:hover {
 }
 
 @media (min-width: 1440px) {
-  .latest-projects {
+  .latest-projects,
+  .latest-articles {
     margin-right: 4em;
     margin-left: 4em;
   }
