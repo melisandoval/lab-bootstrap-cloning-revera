@@ -47,8 +47,24 @@
   color: #aaa;
 }
 
+.card {
+  border: none !important;
+}
+
 @media (min-width: 768px) {
   .featured-container {
     padding-top: 10em !important;
+  }
+
+  .projects-cards-container {
+    display: flex;
+    gap: 2em;
+  }
+}
+
+@media (min-width: 1440px) {
+  .latest-projects {
+    margin-right: 4em;
+    margin-left: 4em;
   }
 }
