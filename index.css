@@ -2,6 +2,11 @@
   --red: #ed564b;
 }
 
+ul {
+  padding-inline-start: 0;
+  list-style-type: none;
+}
+
 a {
   text-decoration: none !important;
 }
@@ -78,6 +83,22 @@ footer p {
   margin-block-end: 0;
 }
 
+footer ul {
+  padding-left: 0;
+}
+
+footer a {
+  color: var(--red);
+}
+
+footer a:hover {
+  color: white;
+}
+
+.footer-links-section-container {
+  background-color: #3b3b3b;
+}
+
 @media (min-width: 768px) {
   .featured-container {
     padding-top: 10em !important;
@@ -86,6 +107,12 @@ footer p {
   .cards-container {
     display: flex;
     gap: 1.5em;
+  }
+
+  .footer-links-section {
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    justify-items: center;
   }
 }
 
