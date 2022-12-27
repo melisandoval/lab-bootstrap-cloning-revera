@@ -2,6 +2,14 @@
   --red: #ed564b;
 }
 
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: var(--bs-gray-900) !important;
+}
+
 .navbar-nav a:hover {
   color: var(--red);
 }
@@ -42,13 +50,19 @@
   background-color: var(--red);
 }
 
-.latest-projects p {
+.latest-projects p,
+.latest-articles p {
   font-size: 0.9rem;
   color: #aaa;
 }
 
-.card {
+.latest-projects .card {
   border: none !important;
+}
+
+.latest-articles a,
+.latest-articles .highlighted-text {
+  color: var(--red);
 }
 
 @media (min-width: 768px) {
@@ -56,9 +70,9 @@
     padding-top: 10em !important;
   }
 
-  .projects-cards-container {
+  .cards-container {
     display: flex;
-    gap: 2em;
+    gap: 1.5em;
   }
 }
 
